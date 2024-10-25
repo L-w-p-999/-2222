@@ -1,0 +1,380 @@
+body{
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    position: relative;
+    border: none;
+    background-color: white;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(150, 150, 150);
+    width: 1000px;
+    margin-bottom:30px;
+    text-align: center;
+    height: 400px;
+    
+    
+    
+}
+.title{
+    text-align: center;
+    position: relative;
+    top:40px;
+}
+.littletitle{
+    text-align: center;
+    color: rgb(69, 179, 69);
+    position: relative;
+    top:25px;
+}
+.bottom .people{
+    background-color: rgb(242, 121, 121);
+    color: white;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin:5px;
+    position: relative;
+    top: 60px;
+    line-height: 3px;
+    z-index: 3;
+    
+   
+    
+    
+    
+    
+    
+    
+}
+.special:hover{
+    background-color:rgb(219, 35, 35)
+}
+.medium{
+    background-color: white;
+    height: 350px;
+    position: relative;
+    border: none;
+    background-color: white;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(150, 150, 150);
+    width: 1000px;
+    margin-bottom:0;
+    
+   
+    
+}
+.medium .number{font-size: 50px;
+    color: orange;
+    border: none;
+    text-decoration: underline;
+    
+}
+
+ .da{
+    float: left;
+    width: 150px;
+    height: 100px;
+    border: solid;
+    text-align: center;
+   
+ }   
+ .medium>.mediumgenral{
+    position: relative;
+    top: 30px;
+    left: 100px;
+;
+ }
+.medium .text{
+    border: solid rgb(68, 156, 68);
+}
+.medium .cut{
+    clear: both;
+}
+.deep:hover{
+    background-color:  rgb(68, 156, 68);
+    color: aliceblue;
+}
+.top{
+    
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(150, 150, 150);
+    margin-bottom: 0;
+    height: 800px;
+    text-align: center;
+    
+    
+}
+.top .quarter{
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: 400px;
+}
+li{
+    line-height: 1px;
+    text-align: left;
+}
+ul{
+    border-right: solid 1px grey;
+}
+.fontarea .bigfont{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid   rgb(68, 156, 68) ;
+    font-size: 37px;
+    margin: 10px;
+    color:rgb(68, 156, 68);
+}
+.big{
+    text-decoration: none;
+    color: rgb(68, 156, 68);
+    position: relative;
+    top: 20px;
+    height:100px;
+    width: 100px;
+    display: inline-block;
+    
+}
+.roll{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(189, 187, 184);
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    
+    
+
+}
+.left{
+    position: relative;
+    top: 380px;
+    left: 920px;
+    
+}
+.center{
+    position: relative;
+    top: 370px;
+    left: 940px;
+}
+.right{
+    position: relative;
+    top: 360px;
+    left: 960px;
+}
+div.roll:hover{
+    background-color: black;
+}
+.hong:hover{
+    color: brown;
+}
+.searcharea{
+    border-radius: 0;
+    border-color: orangered;
+    position: relative;
+    top:17px;
+    left: 680px;
+    height: 20px;
+    width:200px;
+    
+}
+.loading{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: solid rgb(68, 156, 68);
+    position: relative;
+    left:37px;
+}
+.zong{
+    height: 15px;
+    width: 1px;
+    background-color:rgb(68, 156, 68);
+    position: relative;
+    left: 9px;
+    top: 2px;
+}
+.heng{
+    height: 1px;
+    width: 15px;
+    background-color:rgb(68, 156, 68) ;
+    position: relative;
+    left:2px;
+    bottom: 4px;
+}
+.searchbutton{
+    border-radius: 0;
+    border-color: orangered;
+    position: relative;
+    top:0px;
+    width: 60px;
+    height: 27px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left:680px;
+
+}
+.header{
+    width: 2000px;
+    height: 80px;
+    background-color:white;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(150, 150, 150);
+    position: absolute;
+    top: 0px;
+    left:1px; 
+}
+a.exitbutton{
+    background-color: rgb(68, 156, 68) ;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    display: inline-block;
+    height:30px;
+    width: 80px;
+    padding: auto;
+    text-align: center;
+    box-shadow: 0;
+    position: relative;
+    top: 17px;
+    left: 800px;
+    
+}
+.header .button1{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 7px;
+    left: 450px;
+    border:none;
+    display: inline-block;
+    height: 60px;
+    
+    
+}
+.header .button2{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 7px;
+    left:500px;
+    display: inline-block;
+    border:none;
+    height: 60px;
+}
+.header span{
+    width:33px;
+    height:33px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    left: 770px;
+    top: 17px;
+}
+.header .xueer{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(68, 156, 68) ;
+    position: relative;
+    top: 20px;
+    left: 350px;
+}
+.button1:hover{
+    color: orangered;
+    border-bottom: none;
+    border-top: solid orangered 3px;
+    height: 60px;
+    display: inline-block;
+
+}
+.header p{
+    position: relative;
+    top: 13px;
+    display: inline-block;
+}
+.bigfont:hover{
+     background-color:rgb(68, 156, 68) ;
+
+   
+}
+.big:hover{
+    color: white;
+}
+.wei{
+    position: relative;
+    left: 2px;
+    top:-2px;
+}
+.button2:hover{
+    color: orangered;
+    border-bottom: none;
+    border-top: solid orangered 3px;
+    height: 60px;
+    display: inline-block;
+}   
+.picture{
+    background-image: url("image.png");
+    width: 1000px;
+    height: 330px;
+    position: absolute;
+    top: 78px;
+}
+.rabbit{
+   width: 75px;
+   height:48px;
+   background-image: url("image1.png");
+   background-color: aqua;
+}
+.four{
+    position:relative;
+    left:800px;
+    top: -190px;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+}
+.fourth:hover~.four{
+    position: relative;
+    top: -225px;
+}
+.three{
+    position: relative;
+    left: 580px;
+    top:-140px;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+}
+.third:hover~.three{
+    position: relative;
+    top: -178px;
+}
+.two{
+    position:relative;
+    left: 360px;
+    top: -90px;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+
+}
+.second:hover~.two{
+    position:relative;
+    top: -126px;
+}
+.one{
+    position:relative;
+    left:150px;
+    top:-45px;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+}
+.first:hover~.one{
+    position: relative;
+    top: -80px;
+}
